@@ -1,3 +1,12 @@
 <Solution>
-  <Project Path="SubscriptionManager.API/SubscriptionManager.API.csproj" />
+  <Folder Name="/src/">
+    <Project Path="src/SubscriptionManager.API/SubscriptionManager.API.csproj" />
+    <Project Path="src/SubscriptionManager.Application/SubscriptionManager.Application.csproj" />
+    <Project Path="src/SubscriptionManager.Domain/SubscriptionManager.Domain.csproj" />
+    <Project Path="src/SubscriptionManager.Infrastructure/SubscriptionManager.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SubscriptionManager.UnitTests/SubscriptionManager.UnitTests.csproj" />
+    <Project Path="tests/SubscriptionManager.IntegrationTests/SubscriptionManager.IntegrationTests.csproj" />
+  </Folder>
 </Solution>

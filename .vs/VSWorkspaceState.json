@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\SubscriptionManager.Domain",
+    "\\src\\SubscriptionManager.Domain\\Entities",
+    "\\src\\SubscriptionManager.Domain\\Enums",
+    "\\src\\SubscriptionManager.Domain\\Exceptions",
+    "\\tests",
+    "\\tests\\SubscriptionManager.UnitTests"
+  ],
+  "SelectedNode": "\\SubscriptionManager.slnx",
+  "PreviewInSolutionExplorer": false
+}

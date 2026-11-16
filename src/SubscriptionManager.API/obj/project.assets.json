@@ -89,11 +89,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\SubscriptionManager\\SubscriptionManager.API\\SubscriptionManager.API.csproj",
+      "projectUniqueName": "C:\\Projects\\SubscriptionManager\\src\\SubscriptionManager.API\\SubscriptionManager.API.csproj",
       "projectName": "SubscriptionManager.API",
-      "projectPath": "C:\\Projects\\SubscriptionManager\\SubscriptionManager.API\\SubscriptionManager.API.csproj",
+      "projectPath": "C:\\Projects\\SubscriptionManager\\src\\SubscriptionManager.API\\SubscriptionManager.API.csproj",
       "packagesPath": "C:\\Users\\karol\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\SubscriptionManager\\SubscriptionManager.API\\obj\\",
+      "outputPath": "C:\\Projects\\SubscriptionManager\\src\\SubscriptionManager.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
