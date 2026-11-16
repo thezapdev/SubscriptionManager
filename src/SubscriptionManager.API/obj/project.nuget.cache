@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Imfmq972p0c=",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\SubscriptionManager\\SubscriptionManager.API\\SubscriptionManager.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\karol\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.15\\microsoft.aspnetcore.openapi.10.0.15.nupkg.sha512",
+    "C:\\Users\\karol\\.nuget\\packages\\microsoft.openapi\\2.13.0\\microsoft.openapi.2.13.0.nupkg.sha512"
+  ],
+  "logs": []
+}
