@@ -10,15 +10,15 @@ The main goal is to build a maintainable, testable, and secure application while
 
 The areas I will focus on are:
 
-- **Clean Architecture** — separating business logic from infrastructure and framework concerns.
-- **SOLID principles** — writing code that is maintainable, extensible, and easy to test.
-- **Object-oriented programming** — applying encapsulation, abstraction, and composition where they make sense.
-- **REST API design** — building clear HTTP endpoints and using appropriate status codes and request/response contracts.
-- **Database design** — modelling relational data, relationships, constraints, and migrations.
-- **Authentication and authorization** — protecting user accounts and ensuring users can access only their own data.
-- **Automated testing** — verifying business rules and API behaviour.
-- **Containerization and CI** — making the application reproducible and automating build and test workflows.
-- **Full-stack development** — connecting a React client to an ASP.NET Core API.
+- **Clean Architecture** - separating business logic from infrastructure and framework concerns.
+- **SOLID principles** - writing code that is maintainable, extensible, and easy to test.
+- **Object-oriented programming** - applying encapsulation, abstraction, and composition where they make sense.
+- **REST API design** - building clear HTTP endpoints and using appropriate status codes and request/response contracts.
+- **Database design** - modelling relational data, relationships, constraints, and migrations.
+- **Authentication and authorization** - protecting user accounts and ensuring users can access only their own data.
+- **Automated testing** - verifying business rules and API behaviour.
+- **Containerization and CI** - making the application reproducible and automating build and test workflows.
+- **Full-stack development** - connecting a React client to an ASP.NET Core API.
 
 The emphasis is on understanding the decisions behind the implementation, not just making the application work.
 
