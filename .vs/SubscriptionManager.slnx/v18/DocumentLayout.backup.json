@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Projects\\SubscriptionManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{29FD6425-3257-6E84-9A18-B66D671B3294}|tests\\SubscriptionManager.UnitTests\\SubscriptionManager.UnitTests.csproj|c:\\projects\\subscriptionmanager\\tests\\subscriptionmanager.unittests\\subscriptiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29FD6425-3257-6E84-9A18-B66D671B3294}|tests\\SubscriptionManager.UnitTests\\SubscriptionManager.UnitTests.csproj|solutionrelative:tests\\subscriptionmanager.unittests\\subscriptiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6931D09F-5235-A7B4-90B6-097B6E674F93}|src\\SubscriptionManager.Domain\\SubscriptionManager.Domain.csproj|c:\\projects\\subscriptionmanager\\src\\subscriptionmanager.domain\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6931D09F-5235-A7B4-90B6-097B6E674F93}|src\\SubscriptionManager.Domain\\SubscriptionManager.Domain.csproj|solutionrelative:src\\subscriptionmanager.domain\\entities\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6931D09F-5235-A7B4-90B6-097B6E674F93}|src\\SubscriptionManager.Domain\\SubscriptionManager.Domain.csproj|c:\\projects\\subscriptionmanager\\src\\subscriptionmanager.domain\\enums\\subscriptionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6931D09F-5235-A7B4-90B6-097B6E674F93}|src\\SubscriptionManager.Domain\\SubscriptionManager.Domain.csproj|solutionrelative:src\\subscriptionmanager.domain\\enums\\subscriptionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6931D09F-5235-A7B4-90B6-097B6E674F93}|src\\SubscriptionManager.Domain\\SubscriptionManager.Domain.csproj|c:\\projects\\subscriptionmanager\\src\\subscriptionmanager.domain\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6931D09F-5235-A7B4-90B6-097B6E674F93}|src\\SubscriptionManager.Domain\\SubscriptionManager.Domain.csproj|solutionrelative:src\\subscriptionmanager.domain\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6931D09F-5235-A7B4-90B6-097B6E674F93}|src\\SubscriptionManager.Domain\\SubscriptionManager.Domain.csproj|c:\\projects\\subscriptionmanager\\src\\subscriptionmanager.domain\\exceptions\\invalidsubscriptionstateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6931D09F-5235-A7B4-90B6-097B6E674F93}|src\\SubscriptionManager.Domain\\SubscriptionManager.Domain.csproj|solutionrelative:src\\subscriptionmanager.domain\\exceptions\\invalidsubscriptionstateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6931D09F-5235-A7B4-90B6-097B6E674F93}|src\\SubscriptionManager.Domain\\SubscriptionManager.Domain.csproj|c:\\projects\\subscriptionmanager\\src\\subscriptionmanager.domain\\enums\\billingcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6931D09F-5235-A7B4-90B6-097B6E674F93}|src\\SubscriptionManager.Domain\\SubscriptionManager.Domain.csproj|solutionrelative:src\\subscriptionmanager.domain\\enums\\billingcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\SubscriptionManager\\SubscriptionManager.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SubscriptionManager.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,11 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Subscription.cs",
+              "DocumentMoniker": "C:\\Projects\\SubscriptionManager\\src\\SubscriptionManager.Domain\\Entities\\Subscription.cs",
+              "RelativeDocumentMoniker": "src\\SubscriptionManager.Domain\\Entities\\Subscription.cs",
+              "ToolTip": "C:\\Projects\\SubscriptionManager\\src\\SubscriptionManager.Domain\\Entities\\Subscription.cs",
+              "RelativeToolTip": "src\\SubscriptionManager.Domain\\Entities\\Subscription.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA4wB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T18:56:45.173Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SubscriptionStatus.cs",
+              "DocumentMoniker": "C:\\Projects\\SubscriptionManager\\src\\SubscriptionManager.Domain\\Enums\\SubscriptionStatus.cs",
+              "RelativeDocumentMoniker": "src\\SubscriptionManager.Domain\\Enums\\SubscriptionStatus.cs",
+              "ToolTip": "C:\\Projects\\SubscriptionManager\\src\\SubscriptionManager.Domain\\Enums\\SubscriptionStatus.cs",
+              "RelativeToolTip": "src\\SubscriptionManager.Domain\\Enums\\SubscriptionStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T18:56:16.963Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BillingCycle.cs",
+              "DocumentMoniker": "C:\\Projects\\SubscriptionManager\\src\\SubscriptionManager.Domain\\Enums\\BillingCycle.cs",
+              "RelativeDocumentMoniker": "src\\SubscriptionManager.Domain\\Enums\\BillingCycle.cs",
+              "ToolTip": "C:\\Projects\\SubscriptionManager\\src\\SubscriptionManager.Domain\\Enums\\BillingCycle.cs",
+              "RelativeToolTip": "src\\SubscriptionManager.Domain\\Enums\\BillingCycle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T18:56:00.552Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InvalidSubscriptionStateException.cs",
+              "DocumentMoniker": "C:\\Projects\\SubscriptionManager\\src\\SubscriptionManager.Domain\\Exceptions\\InvalidSubscriptionStateException.cs",
+              "RelativeDocumentMoniker": "src\\SubscriptionManager.Domain\\Exceptions\\InvalidSubscriptionStateException.cs",
+              "ToolTip": "C:\\Projects\\SubscriptionManager\\src\\SubscriptionManager.Domain\\Exceptions\\InvalidSubscriptionStateException.cs",
+              "RelativeToolTip": "src\\SubscriptionManager.Domain\\Exceptions\\InvalidSubscriptionStateException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T18:55:54.87Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DomainException.cs",
+              "DocumentMoniker": "C:\\Projects\\SubscriptionManager\\src\\SubscriptionManager.Domain\\Exceptions\\DomainException.cs",
+              "RelativeDocumentMoniker": "src\\SubscriptionManager.Domain\\Exceptions\\DomainException.cs",
+              "ToolTip": "C:\\Projects\\SubscriptionManager\\src\\SubscriptionManager.Domain\\Exceptions\\DomainException.cs",
+              "RelativeToolTip": "src\\SubscriptionManager.Domain\\Exceptions\\DomainException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T18:55:34.517Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SubscriptionTests.cs",
+              "DocumentMoniker": "C:\\Projects\\SubscriptionManager\\tests\\SubscriptionManager.UnitTests\\SubscriptionTests.cs",
+              "RelativeDocumentMoniker": "tests\\SubscriptionManager.UnitTests\\SubscriptionTests.cs",
+              "ToolTip": "C:\\Projects\\SubscriptionManager\\tests\\SubscriptionManager.UnitTests\\SubscriptionTests.cs",
+              "RelativeToolTip": "tests\\SubscriptionManager.UnitTests\\SubscriptionTests.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T18:53:26.154Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\SubscriptionManager\\SubscriptionManager.API\\Program.cs",
               "RelativeDocumentMoniker": "SubscriptionManager.API\\Program.cs",
