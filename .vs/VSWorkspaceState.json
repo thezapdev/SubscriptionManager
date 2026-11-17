@@ -2,13 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\SubscriptionManager.API",
+    "\\src\\SubscriptionManager.Application",
+    "\\src\\SubscriptionManager.Application\\Subscriptions",
+    "\\src\\SubscriptionManager.Application\\Subscriptions\\DTOs",
     "\\src\\SubscriptionManager.Domain",
-    "\\src\\SubscriptionManager.Domain\\Entities",
-    "\\src\\SubscriptionManager.Domain\\Enums",
     "\\src\\SubscriptionManager.Domain\\Exceptions",
     "\\tests",
     "\\tests\\SubscriptionManager.UnitTests"
   ],
-  "SelectedNode": "\\SubscriptionManager.slnx",
+  "SelectedNode": "\\src\\SubscriptionManager.Application\\Subscriptions\\DTOs\\CreateSubscriptionDto.cs",
   "PreviewInSolutionExplorer": false
 }
