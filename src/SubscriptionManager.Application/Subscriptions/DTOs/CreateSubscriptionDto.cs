@@ -1,4 +1,5 @@
-﻿using SubscriptionManager.Domain.Enums;
+﻿using System.ComponentModel.DataAnnotations;
+using SubscriptionManager.Domain.Enums;
 
 namespace SubscriptionManager.Application.DTOs;
 
