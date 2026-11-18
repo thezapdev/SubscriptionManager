@@ -12,5 +12,3 @@ public record SubscriptionDto
     public DateOnly? NextPaymentDate { get; init; }
     public SubscriptionStatus Status { get; init; }
 }
-
-};

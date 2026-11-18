@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\SubscriptionManager.API",
     "\\src\\SubscriptionManager.Application",
+    "\\src\\SubscriptionManager.Application\\Interfaces",
     "\\src\\SubscriptionManager.Application\\Subscriptions",
     "\\src\\SubscriptionManager.Application\\Subscriptions\\DTOs",
     "\\src\\SubscriptionManager.Domain",
@@ -11,6 +11,6 @@
     "\\tests",
     "\\tests\\SubscriptionManager.UnitTests"
   ],
-  "SelectedNode": "\\src\\SubscriptionManager.Application\\Subscriptions\\DTOs\\CreateSubscriptionDto.cs",
+  "SelectedNode": "\\src\\SubscriptionManager.Application\\Interfaces\\ISubscriptionService.cs",
   "PreviewInSolutionExplorer": false
 }

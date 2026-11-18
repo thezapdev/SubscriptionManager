@@ -11,10 +11,11 @@ public decimal Price { get; private set; }
 public BillingCycle BillingCycle { get; private set; }
 public DateOnly NextPaymentDate { get; private set; }
 public SubscriptionStatus Status { get; private set; }
+public string Currency { get; private set; }
 
 private Subscription() { } // For EF Core
 
-    public Subscription(string name, decimal price, BillingCycle billingCycle, DateOnly nextPaymentDate)
+    public Subscription(string name, decimal price, BillingCycle billingCycle, DateOnly nextPaymentDate,string currency)
  {
         if (string.IsNullOrWhiteSpace(name))
             throw new DomainException("Subscription name cannot be empty.");
@@ -28,6 +29,7 @@ private Subscription() { } // For EF Core
         BillingCycle = billingCycle;
         NextPaymentDate = nextPaymentDate;
         Status = SubscriptionStatus.Active;
+        Currency = currency;
  }
 
     public void Cancel()

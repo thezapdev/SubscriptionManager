@@ -7,7 +7,7 @@ namespace SubscriptionManager.UnitTests;
 public class SubscriptionTests
 {
     private static Subscription CreateValid() =>
-        new("Netflix", 49.99m, BillingCycle.Monthly, new DateOnly(2026, 12, 1));
+        new("Netflix", 49.99m, BillingCycle.Monthly, new DateOnly(2026, 12, 1),"euro");
 
     [Fact]
     public void Constructor_WithValidData_CreatesActiveSubscription()
@@ -25,14 +25,14 @@ public class SubscriptionTests
     public void Constructor_WithEmptyName_Throws(string name)
     {
         Assert.Throws<DomainException>(() =>
-            new Subscription(name, 10m, BillingCycle.Monthly, new DateOnly(2026, 12, 1)));
+            new Subscription(name, 10m, BillingCycle.Monthly, new DateOnly(2026, 12, 1),"euro"));
     }
 
     [Fact]
     public void Constructor_WithNegativePrice_Throws()
     {
         Assert.Throws<DomainException>(() =>
-            new Subscription("Spotify", -1m, BillingCycle.Monthly, new DateOnly(2026, 12, 1)));
+            new Subscription("Spotify", -1m, BillingCycle.Monthly, new DateOnly(2026, 12, 1),"euro"));
     }
 
     [Fact]
