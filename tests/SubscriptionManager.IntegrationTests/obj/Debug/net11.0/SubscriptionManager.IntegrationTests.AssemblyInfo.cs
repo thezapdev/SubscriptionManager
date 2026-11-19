@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SubscriptionManager.IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad3397d295194b5362031df45c28a398de2c9903")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+286995a02eaa08abcfd8e4c0bfb7b2211b1648bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubscriptionManager.IntegrationTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubscriptionManager.IntegrationTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

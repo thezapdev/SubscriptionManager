@@ -18,5 +18,5 @@ public record CreateSubscriptionDto
 	public required DateOnly StartDate { get; init; }
     [Required(ErrorMessage = "Currency is required.")]
 	[RegularExpression(@"^[A-Z]{3}$", ErrorMessage = "Currency must be a valid ISO 4217 code.")]
-    public string Currency { get; init; }	
+    public Currency Currency { get; init; }	
 }

@@ -1,0 +1,13 @@
+C:\Projects\SubscriptionManager\src\SubscriptionManager.Domain\bin\Debug\net10.0\SubscriptionManager.Domain.deps.json
+C:\Projects\SubscriptionManager\src\SubscriptionManager.Domain\bin\Debug\net10.0\SubscriptionManager.Domain.dll
+C:\Projects\SubscriptionManager\src\SubscriptionManager.Domain\bin\Debug\net10.0\SubscriptionManager.Domain.pdb
+C:\Projects\SubscriptionManager\src\SubscriptionManager.Domain\obj\Debug\net10.0\SubscriptionManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\SubscriptionManager\src\SubscriptionManager.Domain\obj\Debug\net10.0\SubscriptionManager.Domain.AssemblyInfoInputs.cache
+C:\Projects\SubscriptionManager\src\SubscriptionManager.Domain\obj\Debug\net10.0\SubscriptionManager.Domain.AssemblyInfo.cs
+C:\Projects\SubscriptionManager\src\SubscriptionManager.Domain\obj\Debug\net10.0\SubscriptionManager.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\SubscriptionManager\src\SubscriptionManager.Domain\obj\Debug\net10.0\SubscriptionManager.Domain.sourcelink.json
+C:\Projects\SubscriptionManager\src\SubscriptionManager.Domain\obj\Debug\net10.0\SubscriptionManager.Domain.dll
+C:\Projects\SubscriptionManager\src\SubscriptionManager.Domain\obj\Debug\net10.0\refint\SubscriptionManager.Domain.dll
+C:\Projects\SubscriptionManager\src\SubscriptionManager.Domain\obj\Debug\net10.0\SubscriptionManager.Domain.pdb
+C:\Projects\SubscriptionManager\src\SubscriptionManager.Domain\obj\Debug\net10.0\ref\SubscriptionManager.Domain.dll
+C:\Projects\SubscriptionManager\src\SubscriptionManager.Domain\obj\Debug\net10.0\Subscrip.5ABB0D03.Up2Date
