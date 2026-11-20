@@ -9,7 +9,6 @@ public record CreateSubscriptionDto
 	[StringLength(100, ErrorMessage = "Name cannot exceed 100 characters.")]
 	public required string Name { get; init; }
 	[Required(ErrorMessage = "Price is required.")]
-	[Range(typeof(decimal), "0.01", "1000000", ErrorMessage = "Price must be a positive value.")]
 	public decimal Price { get; init; }
     [Required(ErrorMessage = "Billing cycle is required.")]
 	[EnumDataType(typeof(BillingCycle), ErrorMessage = "Invalid billing cycle.")]
@@ -18,5 +17,5 @@ public record CreateSubscriptionDto
 	public required DateOnly StartDate { get; init; }
     [Required(ErrorMessage = "Currency is required.")]
 	[RegularExpression(@"^[A-Z]{3}$", ErrorMessage = "Currency must be a valid ISO 4217 code.")]
-    public Currency Currency { get; init; }	
+    public string Currency { get; init; } = string.Empty;
 }

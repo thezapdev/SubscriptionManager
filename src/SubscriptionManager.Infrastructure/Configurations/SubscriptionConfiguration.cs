@@ -12,16 +12,23 @@ public class SubscriptionConfiguration : IEntityTypeConfiguration<Subscription>
         builder.ToTable("Subscriptions", table =>
         {
             table.HasCheckConstraint("CK_Subscriptions_Price", "\"Price\" >= 0");
-            table.HasCheckConstraint("CK_Subscriptions_Name", "LENGTH(TRIM(\"Name\")) > 0");
+            table.HasCheckConstraint("CK_Subscriptions_Name", "LEN(TRIM(\"Name\")) > 0");
         });
         builder.HasKey(s => s.Id);
         builder.Property(s => s.Id).ValueGeneratedNever();
         builder.Property(s => s.Name).IsRequired().HasMaxLength(100);
         builder.Property(s => s.Price).IsRequired().HasPrecision(18, 2);
         builder.Property(s => s.BillingCycle).HasConversion<string>().HasMaxLength(20).IsUnicode(false);
-        builder.Property(s => s.Currency).IsRequired().HasMaxLength(3).IsFixedLength().IsUnicode(false);
+        builder.Property(s => s.Currency)
+            .HasConversion(
+                currency => currency.Code,   
+                code => Currency.FromCode(code) 
+            ).IsRequired()
+            .HasMaxLength(3)
+            .IsFixedLength()
+            .IsUnicode(false);        
+        
         builder.Property(s => s.NextPaymentDate).IsRequired();
-
         builder.HasIndex(s => new { s.Status, s.NextPaymentDate });
 
     }

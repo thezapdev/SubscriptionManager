@@ -22,10 +22,14 @@ private Subscription() { } // For EF Core
 
         if (price < 0)
             throw new DomainException("Price cannot be negative.");
+        if (price < 0.01m || price > 1000000m)
+            throw new DomainException(
+                "Price must be between 0.01 and 1000000.");
 
         Id = Guid.NewGuid();
         Name = name.Trim();
         Price = price;
+        
         BillingCycle = billingCycle;
         NextPaymentDate = nextPaymentDate;
         Status = SubscriptionStatus.Active;

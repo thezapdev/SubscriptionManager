@@ -13,8 +13,14 @@ public class SubscriptionService : ISubscriptionService
     }
     public async Task<SubscriptionDto> AddSubscriptionAsync(CreateSubscriptionDto subscription, CancellationToken cancellationToken = default)
     {
-        var entity = new Subscription(subscription.Name,subscription.Price,subscription.BillingCycle,subscription.StartDate,subscription.Currency);
-        await _subscriptionrepository.AddSubscriptionAsync(entity);
+        var currency = Currency.FromCode(subscription.Currency);
+        var entity = new Subscription(
+            subscription.Name,
+            subscription.Price,
+            subscription.BillingCycle,
+            subscription.StartDate,
+            currency);
+        await _subscriptionrepository.AddSubscriptionAsync(entity,cancellationToken);
         await _subscriptionrepository.SaveChangesAsync(cancellationToken);
 
         return new SubscriptionDto()
@@ -24,7 +30,7 @@ public class SubscriptionService : ISubscriptionService
             BillingCycle = entity.BillingCycle,
             NextPaymentDate = entity.NextPaymentDate,
             Status = entity.Status,
-            Currency = entity.Currency
+            Currency = entity.Currency.Code
         };
     }
 
@@ -53,7 +59,7 @@ public class SubscriptionService : ISubscriptionService
             Id = subscription.Id,
             Name = subscription.Name,
             Price = subscription.Price,
-            Currency = subscription.Currency,
+            Currency = subscription.Currency.Code,
             BillingCycle = subscription.BillingCycle,
             NextPaymentDate = subscription.NextPaymentDate,
             Status = subscription.Status
