@@ -7,7 +7,6 @@ namespace SubscriptionManager.Infrastructure;
 public class SubscriptionRepository : ISubscriptionRepository
 {
     private readonly ApplicationDbContext _context;
-    
     public SubscriptionRepository(ApplicationDbContext context)
     {
        _context = context;
