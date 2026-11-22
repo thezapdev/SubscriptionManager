@@ -1,10 +1,11 @@
 using System.Text.Json.Serialization;
+using SubscriptionManager.API.Extensions;
+using SubscriptionManager.API.Middleware;
 using SubscriptionManager.Application.Interfaces;
 using SubscriptionManager.Application.Services;
 using SubscriptionManager.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
-
 builder.Services.AddOpenApi();
 builder.Services.AddInfrastructure(builder.Configuration);
 
@@ -21,6 +22,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+app.UseGlobalExceptionHandling();
 
 // Test Dependency Injection
 using (var scope = app.Services.CreateScope())

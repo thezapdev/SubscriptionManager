@@ -27,6 +27,7 @@ public class SubscriptionService : ISubscriptionService
         {
             Id = entity.Id,
             Name = entity.Name,
+            Price =  entity.Price,
             BillingCycle = entity.BillingCycle,
             NextPaymentDate = entity.NextPaymentDate,
             Status = entity.Status,
