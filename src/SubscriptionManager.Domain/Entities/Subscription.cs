@@ -20,8 +20,6 @@ private Subscription() { } // For EF Core
         if (string.IsNullOrWhiteSpace(name))
             throw new DomainException("Subscription name cannot be empty.");
 
-        if (price < 0)
-            throw new DomainException("Price cannot be negative.");
         if (price < 0.01m || price > 1000000m)
             throw new DomainException(
                 "Price must be between 0.01 and 1000000.");
@@ -53,6 +51,8 @@ public void Resume(DateOnly nextPaymentDate)
 {
         if (Status != SubscriptionStatus.Cancelled)
             throw new InvalidSubscriptionStateException("Only cancelled subscription can be resumed.");
+        if (nextPaymentDate < DateOnly.FromDateTime(DateTime.UtcNow))
+            throw new ArgumentException("Next payment date cannot be in the past.", nameof(nextPaymentDate));
 
         NextPaymentDate = nextPaymentDate;
         Status = SubscriptionStatus.Active;

@@ -28,7 +28,7 @@ public class SubscriptionsController : ControllerBase
     [HttpGet("all")]
     public async Task<IActionResult> GetAll()
     {
-        var result = _subscriptionService.GetAllSubscriptionsAsync();
+        var result = await _subscriptionService.GetAllSubscriptionsAsync();
         
         if (result is null)
         {
@@ -43,4 +43,33 @@ public class SubscriptionsController : ControllerBase
         var result = await _subscriptionService.AddSubscriptionAsync(dto);
         return Ok(result);
     }
+
+    [HttpPost("{id:guid}/cancel")]
+    public async Task<IActionResult> CancelSubscription(Guid id)
+    {
+        await _subscriptionService.CancelSubscriptionAsync(id);
+        return Ok(); 
+    }
+
+    [HttpPost("{id:guid}/renew")]
+    public async Task<IActionResult> RenewSubscription(Guid id)
+    {
+        await _subscriptionService.RenewSubscriptionAsync(id);
+        return Ok();
+    }
+
+    [HttpDelete("{id:guid}")]
+    public async Task<IActionResult> DeleteSubscription(Guid id)
+    {
+        await _subscriptionService.DeleteSubscriptionAsync(id);
+        return NoContent(); 
+    }
+    [HttpPost("{id:guid}/resume")]
+    public async Task<IActionResult> ResumeSubscriptionAsync(Guid id,[FromBody] DateOnly request)
+    {
+        await _subscriptionService.ResumeSubscriptionAsync(id,request);
+        return Ok();
+    }
+   
+
 }

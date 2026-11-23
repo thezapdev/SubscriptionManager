@@ -1,4 +1,5 @@
 ﻿using SubscriptionManager.Application.DTOs;
+using SubscriptionManager.Application.Exceptions;
 using SubscriptionManager.Application.Interfaces;
 using SubscriptionManager.Domain.Entities;
 
@@ -37,10 +38,10 @@ public class SubscriptionService : ISubscriptionService
 
     public async Task<SubscriptionDto?> GetSubscriptionByIdAsync(Guid id, CancellationToken cancellationToken = default)
     {
-       var subscription = await _subscriptionrepository.GetSubscriptionByIdAsync(id);
+       var subscription = await _subscriptionrepository.GetSubscriptionByIdAsync(id,cancellationToken);
         if (subscription is null)
         {
-            return null;
+            throw new NotFoundException(nameof(Subscription), id);
         }
         
         return MapToDto(subscription);
@@ -48,13 +49,61 @@ public class SubscriptionService : ISubscriptionService
 
     public async Task<IEnumerable<SubscriptionDto>> GetAllSubscriptionsAsync(CancellationToken cancellationToken = default)
     {
-       var subscriptions  = await _subscriptionrepository.GetAllSubscriptionsAsync();
+       var subscriptions  = await _subscriptionrepository.GetAllSubscriptionsAsync(cancellationToken);
        return subscriptions.Select(MapToDto).ToList();
     }
 
+    public async Task DeleteSubscriptionAsync(Guid id, CancellationToken cancellationToken = default)
+    {
+        var subscription = await _subscriptionrepository.GetSubscriptionByIdAsync(id, cancellationToken);
+        if (subscription is null)
+        {
+            throw new NotFoundException(nameof(Subscription), id);
+        }
+        await _subscriptionrepository.DeleteSubscriptionAsync(subscription, cancellationToken);
+        await _subscriptionrepository.SaveChangesAsync(cancellationToken);
+        
+
+    }
+
+    public async Task ResumeSubscriptionAsync(Guid id,DateOnly dateOnly, CancellationToken cancellationToken = default)
+    {
+        var subscription = await _subscriptionrepository.GetSubscriptionByIdAsync(id, cancellationToken);
+        if (subscription is null)
+        {
+            throw new NotFoundException(nameof(Subscription), id);
+        }   
+        subscription.Resume(dateOnly);
+        await _subscriptionrepository.SaveChangesAsync(cancellationToken);
+    }
+
+    public async Task CancelSubscriptionAsync(Guid id, CancellationToken cancellationToken = default)
+    {
+        var subscription = await _subscriptionrepository.GetSubscriptionByIdAsync(id, cancellationToken);
+        if (subscription is null)
+        {
+            throw new NotFoundException(nameof(Subscription), id);
+        }
+        subscription.Cancel();
+        await _subscriptionrepository.SaveChangesAsync(cancellationToken);
+    }
+
+    public async Task RenewSubscriptionAsync(Guid id, CancellationToken cancellationToken = default)
+    {
+        var subscription = await _subscriptionrepository.GetSubscriptionByIdAsync(id, cancellationToken);
+
+        if (subscription is null)
+        {
+            throw new NotFoundException(nameof(Subscription), id);
+
+        }
+        subscription.Renew();
+        await _subscriptionrepository.SaveChangesAsync(cancellationToken); 
+    }
+
+
     private static SubscriptionDto MapToDto(Subscription subscription)
     {
-        if(subscription is null) return null;
         return new SubscriptionDto()
         {
             Id = subscription.Id,

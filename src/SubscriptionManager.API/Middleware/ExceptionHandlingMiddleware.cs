@@ -2,6 +2,7 @@
 using System.Net;
 using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
+using SubscriptionManager.Application.Exceptions;
 using SubscriptionManager.Domain.Exceptions;
 
 namespace SubscriptionManager.API.Middleware;
@@ -62,6 +63,12 @@ public class ExceptionHandlingMiddleware
     {
         return exception switch
         {
+            NotFoundException ex => new ProblemDetails()
+            {
+                Status = StatusCodes.Status404NotFound,
+                Title = "Not found",
+                Detail = ex.Message
+            },
             InvalidSubscriptionStateException ex => new ProblemDetails
             {
                 Status = StatusCodes.Status409Conflict,

@@ -31,4 +31,9 @@ public class SubscriptionRepository : ISubscriptionRepository
     {
         await _context.SaveChangesAsync(cancellationToken);
     }
+
+    public async Task DeleteSubscriptionAsync(Subscription subscription, CancellationToken cancellationToken = default)
+    {
+        _context.Subscriptions.Remove(subscription);
+    }
 }
