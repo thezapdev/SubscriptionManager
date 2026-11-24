@@ -225,3 +225,5 @@ C:\Projects\SubscriptionManager\src\SubscriptionManager.API\obj\Debug\net10.0\re
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\obj\Debug\net10.0\SubscriptionManager.API.pdb
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\obj\Debug\net10.0\SubscriptionManager.API.genruntimeconfig.cache
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\obj\Debug\net10.0\ref\SubscriptionManager.API.dll
+C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\FluentValidation.dll
+C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll

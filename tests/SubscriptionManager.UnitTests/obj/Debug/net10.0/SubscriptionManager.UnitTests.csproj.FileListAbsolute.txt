@@ -102,3 +102,9 @@ C:\Projects\SubscriptionManager\tests\SubscriptionManager.UnitTests\obj\Debug\ne
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.UnitTests\obj\Debug\net10.0\SubscriptionManager.UnitTests.pdb
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.UnitTests\obj\Debug\net10.0\SubscriptionManager.UnitTests.genruntimeconfig.cache
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.UnitTests\obj\Debug\net10.0\ref\SubscriptionManager.UnitTests.dll
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.UnitTests\bin\Debug\net10.0\Castle.Core.dll
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.UnitTests\bin\Debug\net10.0\NSubstitute.dll
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.UnitTests\bin\Debug\net10.0\System.Diagnostics.EventLog.dll
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.UnitTests\bin\Debug\net10.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.UnitTests\bin\Debug\net10.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.UnitTests\bin\Debug\net10.0\FluentValidation.dll
