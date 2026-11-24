@@ -1,5 +1,4 @@
-﻿
-using System.Net;
+﻿using System.Net;
 using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 using SubscriptionManager.Application.Exceptions;
@@ -68,6 +67,18 @@ public class ExceptionHandlingMiddleware
                 Status = StatusCodes.Status404NotFound,
                 Title = "Not found",
                 Detail = ex.Message
+            },
+            FluentValidation.ValidationException ex => new ValidationProblemDetails(
+                ex.Errors
+                    .GroupBy(e => e.PropertyName)
+                    .ToDictionary(
+                        g => g.Key,
+                        g => g.Select(e => e.ErrorMessage).ToArray()
+                    ))
+            {
+                Status = StatusCodes.Status400BadRequest,
+                Title = "Validation Error",
+                Detail = "One or more validation errors occurred."
             },
             InvalidSubscriptionStateException ex => new ProblemDetails
             {

@@ -1,34 +1,51 @@
-﻿using SubscriptionManager.Application.DTOs;
+﻿using FluentValidation;
+using SubscriptionManager.Application.DTOs;
 using SubscriptionManager.Application.Exceptions;
 using SubscriptionManager.Application.Interfaces;
 using SubscriptionManager.Domain.Entities;
+using ValidationException = System.ComponentModel.DataAnnotations.ValidationException;
 
 namespace SubscriptionManager.Application.Services;
 
 public class SubscriptionService : ISubscriptionService
 {
+    private readonly IValidator<CreateSubscriptionDto> _validator;
     private readonly ISubscriptionRepository _subscriptionrepository;
-    public SubscriptionService(ISubscriptionRepository subscriptionrepository)
+    public SubscriptionService(ISubscriptionRepository subscriptionrepository,IValidator<CreateSubscriptionDto> validator)
     {
+        _validator = validator;
         _subscriptionrepository = subscriptionrepository;
     }
-    public async Task<SubscriptionDto> AddSubscriptionAsync(CreateSubscriptionDto subscription, CancellationToken cancellationToken = default)
+    public async Task<SubscriptionDto> AddSubscriptionAsync(
+        CreateSubscriptionDto subscription,
+        CancellationToken cancellationToken = default)
     {
+        var validationResult = await _validator.ValidateAsync(
+            subscription,
+            cancellationToken);
+
+        if (!validationResult.IsValid)
+        {
+            throw new FluentValidation.ValidationException(validationResult.Errors);
+        }
+
         var currency = Currency.FromCode(subscription.Currency);
+
         var entity = new Subscription(
             subscription.Name,
             subscription.Price,
             subscription.BillingCycle,
             subscription.StartDate,
             currency);
-        await _subscriptionrepository.AddSubscriptionAsync(entity,cancellationToken);
+
+        await _subscriptionrepository.AddSubscriptionAsync(entity, cancellationToken);
         await _subscriptionrepository.SaveChangesAsync(cancellationToken);
 
         return new SubscriptionDto()
         {
             Id = entity.Id,
             Name = entity.Name,
-            Price =  entity.Price,
+            Price = entity.Price,
             BillingCycle = entity.BillingCycle,
             NextPaymentDate = entity.NextPaymentDate,
             Status = entity.Status,
@@ -68,6 +85,10 @@ public class SubscriptionService : ISubscriptionService
 
     public async Task ResumeSubscriptionAsync(Guid id,DateOnly dateOnly, CancellationToken cancellationToken = default)
     {
+        if (dateOnly < DateOnly.FromDateTime(DateTime.Today.AddDays(-30)))
+        {
+            throw new ValidationException("Resume date cannot be too far in the past.");
+        }
         var subscription = await _subscriptionrepository.GetSubscriptionByIdAsync(id, cancellationToken);
         if (subscription is null)
         {

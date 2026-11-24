@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "M9dujCy1+7Q=",
+  "dgSpecHash": "9GczfScmA34=",
   "success": true,
   "projectFilePath": "C:\\Projects\\SubscriptionManager\\src\\SubscriptionManager.API\\SubscriptionManager.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karol\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
+    "C:\\Users\\karol\\.nuget\\packages\\fluentvalidation\\12.2.0\\fluentvalidation.12.2.0.nupkg.sha512",
+    "C:\\Users\\karol\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.2.0\\fluentvalidation.dependencyinjectionextensions.12.2.0.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.15\\microsoft.aspnetcore.openapi.10.0.15.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",

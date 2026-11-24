@@ -1,9 +1,12 @@
 using System.Text.Json.Serialization;
+using FluentValidation;
 using SubscriptionManager.API.Extensions;
 using SubscriptionManager.API.Middleware;
 using SubscriptionManager.Application.Interfaces;
 using SubscriptionManager.Application.Services;
+using SubscriptionManager.Application.Validators;
 using SubscriptionManager.Infrastructure;
+
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
@@ -20,6 +23,7 @@ builder.Services.AddControllers()
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateSubscriptionDtoValidator>();
 
 var app = builder.Build();
 app.UseGlobalExceptionHandling();

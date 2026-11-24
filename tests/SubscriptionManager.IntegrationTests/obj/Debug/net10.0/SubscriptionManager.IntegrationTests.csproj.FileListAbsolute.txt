@@ -160,3 +160,5 @@ C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\obj\D
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\obj\Debug\net10.0\SubscriptionManager.IntegrationTests.pdb
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\obj\Debug\net10.0\SubscriptionManager.IntegrationTests.genruntimeconfig.cache
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\obj\Debug\net10.0\ref\SubscriptionManager.IntegrationTests.dll
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\FluentValidation.dll
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
