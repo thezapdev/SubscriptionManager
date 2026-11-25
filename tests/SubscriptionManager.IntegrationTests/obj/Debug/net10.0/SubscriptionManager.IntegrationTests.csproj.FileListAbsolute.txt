@@ -19,9 +19,10 @@ C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\D
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\SubscriptionManager.IntegrationTests.pdb
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\Azure.Core.dll
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\Azure.Identity.dll
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\FluentValidation.dll
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
@@ -29,7 +30,9 @@ C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\D
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\Microsoft.Identity.Client.Broker.dll
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\Microsoft.Identity.Client.NativeInterop.dll
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
@@ -140,6 +143,12 @@ C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\D
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\runtimes\linux-x64\native\libmsalruntime.so
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\runtimes\osx-arm64\native\msalruntime_arm64.dylib
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\runtimes\osx-x64\native\msalruntime.dylib
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\runtimes\win-x64\native\msalruntime.dll
+C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\SubscriptionManager.API.dll
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\SubscriptionManager.Application.dll
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\SubscriptionManager.Domain.dll
@@ -160,5 +169,3 @@ C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\obj\D
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\obj\Debug\net10.0\SubscriptionManager.IntegrationTests.pdb
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\obj\Debug\net10.0\SubscriptionManager.IntegrationTests.genruntimeconfig.cache
 C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\obj\Debug\net10.0\ref\SubscriptionManager.IntegrationTests.dll
-C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\FluentValidation.dll
-C:\Projects\SubscriptionManager\tests\SubscriptionManager.IntegrationTests\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll

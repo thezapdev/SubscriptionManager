@@ -12,6 +12,8 @@ public BillingCycle BillingCycle { get; private set; }
 public DateOnly NextPaymentDate { get; private set; }
 public SubscriptionStatus Status { get; private set; }
 public Currency Currency { get; private set; }
+public Guid UserId { get; private set; }
+public User User { get; private set; }
 
 private Subscription() { } // For EF Core
 

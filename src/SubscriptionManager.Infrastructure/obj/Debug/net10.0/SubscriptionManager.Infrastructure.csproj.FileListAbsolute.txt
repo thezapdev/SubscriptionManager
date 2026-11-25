@@ -1,4 +1,6 @@
 C:\Projects\SubscriptionManager\src\SubscriptionManager.Infrastructure\bin\Debug\net10.0\SubscriptionManager.Infrastructure.deps.json
+C:\Projects\SubscriptionManager\src\SubscriptionManager.Infrastructure\bin\Debug\net10.0\SubscriptionManager.Infrastructure.runtimeconfig.json
+C:\Projects\SubscriptionManager\src\SubscriptionManager.Infrastructure\bin\Debug\net10.0\SubscriptionManager.Infrastructure.runtimeconfig.dev.json
 C:\Projects\SubscriptionManager\src\SubscriptionManager.Infrastructure\bin\Debug\net10.0\SubscriptionManager.Infrastructure.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.Infrastructure\bin\Debug\net10.0\SubscriptionManager.Infrastructure.pdb
 C:\Projects\SubscriptionManager\src\SubscriptionManager.Infrastructure\bin\Debug\net10.0\SubscriptionManager.Application.dll
@@ -15,4 +17,5 @@ C:\Projects\SubscriptionManager\src\SubscriptionManager.Infrastructure\obj\Debug
 C:\Projects\SubscriptionManager\src\SubscriptionManager.Infrastructure\obj\Debug\net10.0\SubscriptionManager.Infrastructure.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.Infrastructure\obj\Debug\net10.0\refint\SubscriptionManager.Infrastructure.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.Infrastructure\obj\Debug\net10.0\SubscriptionManager.Infrastructure.pdb
+C:\Projects\SubscriptionManager\src\SubscriptionManager.Infrastructure\obj\Debug\net10.0\SubscriptionManager.Infrastructure.genruntimeconfig.cache
 C:\Projects\SubscriptionManager\src\SubscriptionManager.Infrastructure\obj\Debug\net10.0\ref\SubscriptionManager.Infrastructure.dll
