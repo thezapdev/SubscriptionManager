@@ -56,10 +56,11 @@ C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Su
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\SubscriptionManager.API.pdb
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Azure.Core.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Azure.Identity.dll
+C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\FluentValidation.dll
+C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Humanizer.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Microsoft.Build.Framework.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -75,7 +76,9 @@ C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Mi
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Microsoft.Identity.Client.Broker.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Microsoft.Identity.Client.NativeInterop.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
@@ -184,6 +187,12 @@ C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\ru
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\runtimes\linux-x64\native\libmsalruntime.so
+C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\runtimes\osx-arm64\native\msalruntime_arm64.dylib
+C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\runtimes\osx-x64\native\msalruntime.dylib
+C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\runtimes\win-x64\native\msalruntime.dll
+C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\SubscriptionManager.Application.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\SubscriptionManager.Domain.dll
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\SubscriptionManager.Infrastructure.dll
@@ -211,7 +220,7 @@ C:\Projects\SubscriptionManager\src\SubscriptionManager.API\obj\Debug\net10.0\js
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\obj\Debug\net10.0\scopedcss\scopedcss.cache
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\obj\Debug\net10.0\scopedcss\bundle\SubscriptionManager.API.styles.css
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\obj\Debug\net10.0\compressed\avh7j2qi12-{0}-tchfgznwy8-tchfgznwy8.gz
-C:\Projects\SubscriptionManager\src\SubscriptionManager.API\obj\Debug\net10.0\compressed\6z3zms2o9c-{0}-qyl8jce9ty-qyl8jce9ty.gz
+C:\Projects\SubscriptionManager\src\SubscriptionManager.API\obj\Debug\net10.0\compressed\6z3zms2o9c-{0}-466jzuuhcu-466jzuuhcu.gz
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\obj\Debug\net10.0\compressed\otzp5lr8wg-{0}-v1vy2to33n-v1vy2to33n.gz
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\obj\Debug\net10.0\compressed\756t9vannb-{0}-ysew0n4kjn-ysew0n4kjn.gz
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\obj\Debug\net10.0\staticwebassets.build.json
@@ -225,5 +234,3 @@ C:\Projects\SubscriptionManager\src\SubscriptionManager.API\obj\Debug\net10.0\re
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\obj\Debug\net10.0\SubscriptionManager.API.pdb
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\obj\Debug\net10.0\SubscriptionManager.API.genruntimeconfig.cache
 C:\Projects\SubscriptionManager\src\SubscriptionManager.API\obj\Debug\net10.0\ref\SubscriptionManager.API.dll
-C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\FluentValidation.dll
-C:\Projects\SubscriptionManager\src\SubscriptionManager.API\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
